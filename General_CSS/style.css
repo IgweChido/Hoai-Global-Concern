@@ -1,0 +1,407 @@
+
+
+/*************General Styles*****************/
+
+a{
+	text-decoration: none;
+}
+html,body,h1,h2,h3,h4 {font-family: "Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+body, html{
+	height: 100%;
+}
+
+
+
+
+
+/*************  Home page styles  *****************/ 
+
+.w3-myfont{
+	
+	font-family: Comic Sans Ms, sans-serif;
+}
+
+.w3-RRed{
+	color: hsl(0, 100%, 30%);
+
+}
+
+.w3-TE{
+	padding-left: 120px;
+}
+
+
+.smallPara{
+	background-image: url('images/city1.jpg');
+	height: 1000px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+
+.smallPara2{
+	background-image: url('images/blueSuit.jpg');
+	height: 1900px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+/*/**************** For Screens more than 270px        ******************/
+
+@media screen and (min-width: 270px){
+
+	.smallPara{
+	background-image: url('images/city1.jpg');
+	height: 850px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+
+.smallPara2{
+	background-image: url('images/blueSuit.jpg');
+	height: 1700px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}}
+
+
+/*/**************** For Screens more than 330px        ******************/
+
+@media screen and (min-width: 330px){
+	.smallPara{
+	background-image: url('images/city1.jpg');
+	height: 800px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+
+.smallPara2{
+	background-image: url('images/blueSuit.jpg');
+	height: 1450px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+}
+
+
+/*/**************** For Screens more than 400px        ******************/
+
+@media screen and (min-width: 400px){
+	.smallPara{
+	background-image: url('images/city1.jpg');
+	height: 650px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+
+.smallPara2{
+	background-image: url('images/blueSuit.jpg');
+	height: 1200px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+}
+
+/*/**************** For Screens more than 500px        ******************/
+
+@media screen and (min-width: 500px){
+	.smallPara{
+	background-image: url('images/city1.jpg');
+	height: 550px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.smallPara2{
+	background-image: url('images/blueSuit.jpg');
+	height:1100px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: 75% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+}
+
+
+
+
+
+
+
+/*/**************** For Screens more than 550px        ******************/
+
+
+@media screen and (min-width: 550px){
+
+	
+
+	.parallax{
+	background-image: url('images/city1.jpg');
+	height: 500px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+	background-image: url('images/blueSuit.jpg');
+	height: 950px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+}
+
+
+/**************** For Screens more than 980px ******************/
+
+
+@media screen and (min-width: 980px){
+
+	
+
+
+	.parallax{
+	background-image: url('images/city1.jpg');
+	height: 400px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+	background-image: url('images/blueSuit.jpg');
+	height: 750px;
+	width: 100%;
+	/* Creating a parallax scrolling effect */
+	 background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*************  About page styles  *****************/ 
+
+.w3-AboutUs{
+	background-color: rgb(51, 51, 51);
+	
+
+}
+
+
+
+/* Top About Section on Large Screens */
+.backImage{
+	background-image: url("images/TaxClock.jpg");
+	height: 500px;
+	width:100%;
+	 background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  bottom;
+}
+
+
+/* Top About Section on Small Screens */
+.backImage2{
+	
+	background-image: url("images/TaxClock.jpg");
+	height: 600px;
+	width:100%;
+	 background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+    background-position:  center;
+}
+
+
+
+
+
+
+/*************  Services page styles  *****************/ 
+
+.w3-Services{
+	background-color: rgb(51, 51, 51);
+}
+
+
+/* Top About Section on Large Screens */
+.secImage{
+	background-image: url("images/taxCoffee.jpg");
+	height: 500px;
+	width:100%;
+	 background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+
+/* Top About Section on Small Screens */
+.secImage2{
+	background-image: url("images/taxCoffee2.jpg");
+	height: 500px;
+	width:100%;
+	 background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+/*************  Articles page styles  *****************/ 
+
+.w3-boxx{
+	
+	margin-top: 60px;
+	margin-left: 65px;
+	margin-right: 65px;
+	margin-bottom: 10px;
+}
+
+.w3-Sboxx{
+	padding-right: 100px;
+}
+
+
+
+
+
+/*************  Features page styles  *****************/ 
+
+.colour1{
+	background-color: #00004d;
+	color: white;
+}
+
+.colour2{
+	background-color: #e6e6e6; 
+}
+
+.colour3{
+	background-color: #800000;
+	color: white;
+}
+
+
+.imagez{
+	
+	display: block;
+	margin: auto;
+
+	
+	
+}
+
+#boxes{
+	padding: 50px;
+}
+
+.sectionss{
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+
+.part{
+	color: hsl(0, 0%, 25%);
+}
+
+.colour1{
+
+}
+
